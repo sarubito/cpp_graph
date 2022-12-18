@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robo22/cpp_graph/graph.cpp
+iostream
+-
+vector
+-
+utility
+-
+boost/graph/adjacency_list.hpp
+-
+boost/graph/graph_utility.hpp
+-
+
